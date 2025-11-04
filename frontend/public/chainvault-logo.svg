@@ -1,0 +1,25 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with rounded corners (black) -->
+  <rect width="80" height="80" rx="18" fill="#000000"/>
+  
+  <!-- Isometric Box Design (matching your logo) -->
+  <g transform="translate(25, 20)">
+    <!-- Top face (gold/tan) -->
+    <path d="M 15 8 L 30 0 L 30 12 L 15 20 Z" fill="#C9A86A" opacity="0.95"/>
+    
+    <!-- Left face (darker gold) -->
+    <path d="M 0 8 L 15 0 L 15 20 L 0 28 Z" fill="#8B7355" opacity="0.9"/>
+    
+    <!-- Right face (medium gold) -->
+    <path d="M 15 20 L 30 12 L 30 32 L 15 40 Z" fill="#A0826D" opacity="0.9"/>
+    
+    <!-- Inner shadow/depth (black center) -->
+    <path d="M 10 16 L 20 10 L 20 20 L 10 26 Z" fill="#1a1a1a" opacity="0.8"/>
+    
+    <!-- Highlight on top -->
+    <path d="M 15 8 L 30 0 L 28 1 L 13 9 Z" fill="#E5D5B7" opacity="0.3"/>
+  </g>
+  
+  <!-- Subtle outer glow -->
+  <rect width="80" height="80" rx="18" fill="none" stroke="#C9A86A" stroke-width="0.5" opacity="0.2"/>
+</svg>
